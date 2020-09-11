@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Test Media Query Bug</title>
+<style>
+	body {
+		min-width: 100%;
+		min-height: 100vh;
+	}
+	@media (min-width: 544px) and (max-width: 768px) {
+		body {
+			background: red;
+		}
+	}
+	@media (min-width: 768px) and (max-width: 1024px) {
+		body {
+			background: green;
+		}
+	}
+	@media (min-width: 1024px) and (max-width: 1280px) {
+		body {
+			background: yellow;
+		}
+	}
+	@media (min-width: 1280px) and (max-width: 1460px) {
+		body {
+			background: blue;
+		}
+	}
+	@media (min-width: 1460px) and (max-width: 1700px) {
+		body {
+			background: purple;
+		}
+	}
+	@media (min-width: 1700px) {
+		body {
+			background: gray;
+		}
+	}
+</style>
+</head>
+
+<body>
+
+</body>
+
+</html>
